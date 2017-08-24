@@ -10,7 +10,7 @@ public class SIMPLNumbers {
 
         private static void countSimpleNumber() {
             Scanner in = new Scanner(System.in);
-            System.out.println("Введите число N: ");
+            System.out.println("Введите число  N: ");
             int n = in.nextInt();
             System.out.println("Простые числа от 1 до " + n);
             int num, arg;
