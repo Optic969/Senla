@@ -1,17 +1,19 @@
 import java.util.Scanner;
 
+
+
 public class Removesnumbers {
+    public static void main(String[] args)  {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите текст из которого будут удалены цифры:  ");
+        String s = in.nextLine();StringBuilder r = new StringBuilder();
+        for (int i = 0; i < s.length(); ++i) {
+            char c = s.charAt(i);
+            if (!Character.isDigit(c)) {
 
-    public static void main(String[] args) {
-        Scanner scany = new Scanner(System.in);
-        System.out.println("Введите текст из которого будут удалены цифры :");
-        String inS = scany.next();
-        go(inS);
-    }
-
-    private static void go(String inS) {
-        inS = inS.replaceAll("[0-9]","");
-        System.out.println(inS);
+                r.append(c);
+            }
+        }
+        System.out.println("result: " + r);
     }
 }
-
