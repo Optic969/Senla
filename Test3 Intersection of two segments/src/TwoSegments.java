@@ -46,7 +46,7 @@ yi = (a2 * c1 - a1 * c2) / d;
 }
 else {isCrossing = false;}
 if (isCrossing) {
-    out.println("Отрезки пересекаются.");
+    out.println("Отрезки пересекаются");
 out.println("Точка пересечения двух отрезков (" + xi + "," + yi + ")");}
 else {
 out.println("Отрезки не пересекаются");}
