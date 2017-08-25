@@ -42,8 +42,7 @@ c2 = y4 * x3 - x4 * y3;
 
 xi = (b1 * c2 - b2 * c1) / d;
 yi = (a2 * c1 - a1 * c2) / d;
-if (((x1<=xi)&&(x2>=xi)&&(x3<=xi)&&(x4 >=xi))||((y1<=yi)&&(y2>=yi)&&(y3<=yi) &&(y4>=yi))) {isCrossing = true;}
-else {isCrossing = false;}
+    isCrossing = ((x1 <= xi) && (x2 >= xi) && (x3 <= xi) && (x4 >= xi)) || ((y1 <= yi) && (y2 >= yi) && (y3 <= yi) && (y4 >= yi));
 }
 else {isCrossing = false;}
 if (isCrossing) {
