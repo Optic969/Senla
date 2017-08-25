@@ -10,7 +10,7 @@ public static void main(String[] args) {
 Scanner in = new Scanner(System.in);
 boolean isCrossing;
 
-out.println("Введите координаты первого отрезка: " );
+out.println("Введите координаты первого отрезка:" );
 out.println("Координата х1: " );
 int x1 = in.nextInt();
 out.println("Координата у1: " );
