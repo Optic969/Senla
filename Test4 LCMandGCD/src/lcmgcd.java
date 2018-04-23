@@ -40,4 +40,5 @@ public class lcmgcd {
         }
         return nok;
     }
+    System.out.print("ZAQ");
 }
